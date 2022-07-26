@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pesquisa interativa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../Teste/cascate.css">
+    </head> 
+    <body>
+        <header>
+            <div class="nav container ">
+                <h1>
+                    Exemplo de uso de filtro
+                </h1>
+            </div>
+        </header>
+        <div class="container"> 
+            <div class="filro">
+                <h1>Pesquisa interativa</h1>
+                <div class="campo-filtro">
+                    <p>Filtrar por:</p><input type="search" id="pesquisa" oninput="limpar()"> 
+                    <button type="button" onclick="filtrar()">Filtrar</button>
+                </div>
+            </div>
+            <ul id="lista">
+                <li>Ana</li>
+                <li>Mariana</li>
+                <li>Banana</li>
+                <li>Celular</li>
+                <li>Smartphone</li>
+                <li>Dumbphone</li>
+                <li>Tablet</li>
+                <li>Phablet</li>
+                <li>Laptop</li>
+                <li>Top-down</li>
+            </ul>        
+        </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript"></script>
+        <script type="text/javascript" src="../Teste/script.js"></script>
+    </body>
+</html>
